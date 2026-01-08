@@ -1,0 +1,1 @@
+│  npx create-better-t-stack@latest Jewellery-e-commerce --frontend next --backend self --runtime none --database postgres --orm prisma --api trpc --auth better-auth --payments none --addons turborepo --examples none --db-setup prisma-postgres --web-deploy none --server-deploy none --git --package-manager npm --install

@@ -1,0 +1,3 @@
+{
+  "extends": "@Jewellery-e-commerce/config/tsconfig.base.json"
+}
