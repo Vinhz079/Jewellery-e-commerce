@@ -1,0 +1,10 @@
+{
+  "buildCommand": "turbo build --filter=web",
+  "installCommand": "npm install",
+  "framework": null,
+  "functions": {
+    "apps/web/src/app/api/**/*.ts": {
+      "runtime": "nodejs20.x"
+    }
+  }
+}
