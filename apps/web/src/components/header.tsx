@@ -80,7 +80,7 @@ export default function Header() {
               Bracelets
             </Link>
             <Link 
-              href="/about" 
+              href="#" 
               className="text-sm font-semibold tracking-wide text-gray-800 hover:text-gray-600 transition-colors uppercase"
             >
               About
@@ -229,7 +229,7 @@ export default function Header() {
               Bracelets
             </Link>
             <Link 
-              href="/about" 
+              href="#" 
               className="block text-base font-semibold tracking-wide text-gray-800 hover:text-gray-600 transition-colors uppercase py-2"
               onClick={() => setIsMenuOpen(false)}
             >

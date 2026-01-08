@@ -7,27 +7,27 @@ import { useIntersectionObserver } from '../../hooks/useIntersectionObserver';
 const categories = [
   {
     title: 'Rings',
-    link: '/collections/rings',
+    link: '#',
     image: '/images/categories/rings.jpg',
   },
   {
     title: 'Bracelets',
-    link: '/collections/bracelets',
+    link: '#',
     image: '/images/categories/bracelets.jpg',
   },
   {
     title: 'Necklaces',
-    link: '/collections/necklaces',
+    link: '#',
     image: '/images/categories/necklaces.jpg',
   },
   {
     title: 'Earrings',
-    link: '/collections/earrings',
+    link: '#',
     image: '/images/categories/earrings.jpg',
   },
   {
     title: 'Bundles & Sets',
-    link: '/collections/bundles-sets',
+    link: '#',
     image: '/images/categories/bundles-sets.jpg',
   },
 ];
@@ -57,7 +57,7 @@ export default function ShopByCategory() {
           {categories.map((category, index) => (
             <Link
               key={index}
-              href={category.link}
+              href={category.link as any}
               className={`group transition-transform duration-700 ${
                 sectionVisible ? 'animate-fade-in-up' : 'translate-y-8'
               } ${sectionVisible ? `stagger-${(index % 4) + 1}` : ''}`}
@@ -80,7 +80,7 @@ export default function ShopByCategory() {
         {/* View All Link */}
         <div className="text-center mt-12">
           <Link
-            href="/collections/shop-all"
+            href="#"
             className={`inline-flex items-center text-gray-900 font-light tracking-wide uppercase text-sm hover:text-gray-600 transition-all duration-700 ${
               headerVisible ? 'animate-fade-in-up stagger-2' : 'translate-y-8'
             }`}

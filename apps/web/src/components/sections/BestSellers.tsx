@@ -154,7 +154,7 @@ export default function BestSellers() {
         {/* View All Link */}
         <div className="text-center mt-12">
           <Link
-            href="/collections/best-sellers-1"
+            href="#"
             className={`inline-block px-8 py-4 border-2 border-gray-900 text-gray-900 font-light tracking-wide uppercase hover:bg-gray-900 hover:text-white transition-all duration-600 ${
               headerVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-5'
             }`}

@@ -32,13 +32,13 @@ export default function HeroSection() {
 
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
-            href="/collections/all-new-arrivals"
+            href="#"
             className="px-8 py-4 bg-white text-gray-900 font-light tracking-wide uppercase hover:bg-gray-100 transition-colors"
           >
             Shop New Arrivals
           </Link>
           <Link
-            href="/collections/engagement-rings"
+            href="#"
             className="px-8 py-4 bg-transparent border-2 border-white text-white font-light tracking-wide uppercase hover:bg-white hover:text-gray-900 transition-colors"
           >
             Engagement Rings

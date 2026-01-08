@@ -5,14 +5,14 @@ import Image from 'next/image';
 import { useIntersectionObserver } from '../../hooks/useIntersectionObserver';
 
 const shapes = [
-  { name: 'Round', image: '/images/shapes/round.png', link: '/collections/engagement-rings/?filter.p.m.custom.shop_by_shape=Round' },
-  { name: 'Oval', image: '/images/shapes/oval.png', link: '/collections/engagement-rings/?filter.p.m.custom.shop_by_shape=Oval' },
-  { name: 'Radiant', image: '/images/shapes/radiant.png', link: '/collections/engagement-rings/?filter.p.m.custom.shop_by_shape=Radiant' },
-  { name: 'Pear', image: '/images/shapes/pear.png', link: '/collections/engagement-rings/?filter.p.m.custom.shop_by_shape=Pear' },
-  { name: 'Emerald', image: '/images/shapes/emerald.png', link: '/collections/engagement-rings/?filter.p.m.custom.shop_by_shape=Emerald' },
-  { name: 'Cushion', image: '/images/shapes/cushion.png', link: '/collections/engagement-rings/?filter.p.m.custom.shop_by_shape=Cushion' },
-  { name: 'Marquise', image: '/images/shapes/marquise.png', link: '/collections/engagement-rings/?filter.p.m.custom.shop_by_shape=Marquise' },
-  { name: 'Princess', image: '/images/shapes/princess.png', link: '/collections/engagement-rings/?filter.p.m.custom.shop_by_shape=Princess' },
+  { name: 'Round', image: '/images/shapes/round.png', link: '#' },
+  { name: 'Oval', image: '/images/shapes/oval.png', link: '#' },
+  { name: 'Radiant', image: '/images/shapes/radiant.png', link: '#' },
+  { name: 'Pear', image: '/images/shapes/pear.png', link: '#' },
+  { name: 'Emerald', image: '/images/shapes/emerald.png', link: '#' },
+  { name: 'Cushion', image: '/images/shapes/cushion.png', link: '#' },
+  { name: 'Marquise', image: '/images/shapes/marquise.png', link: '#' },
+  { name: 'Princess', image: '/images/shapes/princess.png', link: '#' },
 ];
 
 export default function EngagementRingShowcase() {
@@ -47,7 +47,7 @@ export default function EngagementRingShowcase() {
           {shapes.map((shape, index) => (
             <Link
               key={index}
-              href={shape.link}
+              href={shape.link as any}
               className={`group flex flex-col items-center transition-transform duration-700 ${
                 sectionVisible ? 'animate-fade-in-up' : 'translate-y-8'
               } ${sectionVisible ? `stagger-${(index % 4) + 1}` : ''}`}
@@ -113,13 +113,13 @@ export default function EngagementRingShowcase() {
 
             <div className="flex flex-col sm:flex-row gap-4">
               <Link
-                href="/collections/engagement-rings"
+                href="#"
                 className="inline-block px-8 py-4 bg-gray-900 text-white font-light tracking-wide uppercase text-center hover:bg-gray-800 transition-colors"
               >
                 Shop Engagement Rings
               </Link>
               <Link
-                href="/pages/ring-guide"
+                href="#"
                 className="inline-block px-8 py-4 border-2 border-gray-900 text-gray-900 font-light tracking-wide uppercase text-center hover:bg-gray-900 hover:text-white transition-colors"
               >
                 Ring Size Guide

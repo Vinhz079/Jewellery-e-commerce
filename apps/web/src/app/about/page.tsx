@@ -222,7 +222,7 @@ export default function AboutPage() {
                 </div>
                 <div className="pt-6">
                   <Link 
-                    href="/collections/shop-all"
+                    href="#"
                     className="inline-block px-8 py-4 bg-gray-900 text-white font-light tracking-wide uppercase hover:bg-gray-800 transition-colors"
                   >
                     Explore Our Collections
@@ -505,7 +505,7 @@ export default function AboutPage() {
 
                 <div className="pt-6">
                   <Link 
-                    href="/pages/sustainability"
+                    href="#"
                     className="inline-flex items-center text-gray-900 font-light tracking-wide uppercase text-sm hover:text-gray-600 transition-colors"
                   >
                     <span>Learn More About Our Practices</span>
@@ -530,13 +530,13 @@ export default function AboutPage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link
-                href="/collections/shop-all"
+                href="#"
                 className="px-8 py-4 bg-white text-gray-900 font-light tracking-wide uppercase hover:bg-gray-100 transition-colors"
               >
                 Shop Collections
               </Link>
               <Link
-                href="/pages/contact"
+                href="#"
                 className="px-8 py-4 border-2 border-white text-white font-light tracking-wide uppercase hover:bg-white hover:text-gray-900 transition-colors"
               >
                 Get In Touch

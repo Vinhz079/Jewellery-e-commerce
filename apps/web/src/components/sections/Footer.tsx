@@ -54,37 +54,37 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/collections/all-new-arrivals" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   New Arrivals
                 </Link>
               </li>
               <li>
-                <Link href="/collections/best-sellers-1" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Best Sellers
                 </Link>
               </li>
               <li>
-                <Link href="/collections/engagement-rings" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Engagement Rings
                 </Link>
               </li>
               <li>
-                <Link href="/collections/travel-rings" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Travel Rings
                 </Link>
               </li>
               <li>
-                <Link href="/collections/wedding-bands" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Wedding Bands
                 </Link>
               </li>
               <li>
-                <Link href="/pages/men" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#men" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Men's Collection
                 </Link>
               </li>
               <li>
-                <Link href="/collections/outlet-sale-2024" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Sale
                 </Link>
               </li>
@@ -98,37 +98,37 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/pages/help-1" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#help-1" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Help & FAQ
                 </Link>
               </li>
               <li>
-                <Link href="/pages/contact" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#contact" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Contact Us
                 </Link>
               </li>
               <li>
-                <Link href="/pages/shipping" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#shipping" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Shipping Info
                 </Link>
               </li>
               <li>
-                <Link href="/pages/returns" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#returns" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Returns & Exchanges
                 </Link>
               </li>
               <li>
-                <Link href="/pages/ring-guide" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#ring-guide" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Ring Size Guide
                 </Link>
               </li>
               <li>
-                <Link href="/pages/care-guide" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#care-guide" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Jewelry Care
                 </Link>
               </li>
               <li>
-                <Link href="/pages/warranty" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#warranty" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Warranty
                 </Link>
               </li>
@@ -142,32 +142,32 @@ export default function Footer() {
             </h3>
             <ul className="space-y-3">
               <li>
-                <Link href="/pages/about" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#about" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Our Story
                 </Link>
               </li>
               <li>
-                <Link href="/pages/sustainability" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#sustainability" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Sustainability
                 </Link>
               </li>
               <li>
-                <Link href="/pages/the-objkts-edit" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#the-objkts-edit" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   The OBJKTS Edit
                 </Link>
               </li>
               <li>
-                <Link href="/pages/careers" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#careers" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Careers
                 </Link>
               </li>
               <li>
-                <Link href="/pages/press" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#press" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Press
                 </Link>
               </li>
               <li>
-                <Link href="/pages/affiliates" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
+                <Link href="#affiliates" className="text-gray-600 hover:text-gray-900 font-light text-sm transition-colors">
                   Affiliate Program
                 </Link>
               </li>
@@ -188,13 +188,13 @@ export default function Footer() {
 
             {/* Legal Links */}
             <div className="flex flex-wrap justify-center gap-6">
-              <Link href="/pages/privacy-policy" className="text-sm text-gray-500 hover:text-gray-900 font-light transition-colors">
+              <Link href="#privacy-policy" className="text-sm text-gray-500 hover:text-gray-900 font-light transition-colors">
                 Privacy Policy
               </Link>
-              <Link href="/pages/terms-of-service" className="text-sm text-gray-500 hover:text-gray-900 font-light transition-colors">
+              <Link href="#terms-of-service" className="text-sm text-gray-500 hover:text-gray-900 font-light transition-colors">
                 Terms of Service
               </Link>
-              <Link href="/pages/cookie-policy" className="text-sm text-gray-500 hover:text-gray-900 font-light transition-colors">
+              <Link href="#cookie-policy" className="text-sm text-gray-500 hover:text-gray-900 font-light transition-colors">
                 Cookie Policy
               </Link>
             </div>

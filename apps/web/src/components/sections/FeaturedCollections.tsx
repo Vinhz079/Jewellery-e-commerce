@@ -8,22 +8,22 @@ const collections = [
   {
     title: 'Now Trending',
     image: '/images/collections/trending.jpg',
-    link: '/collections/all-new-arrivals',
+    link: '#',
   },
   {
     title: 'Travel Rings',
     image: '/images/collections/travel-rings.jpg',
-    link: '/collections/travel-rings',
+    link: '#',
   },
   {
     title: 'The Duo Set',
     image: '/images/collections/duo-set.jpg',
-    link: '/collections/mens-bundles-and-sets',
+    link: '#',
   },
   {
     title: 'New Collection',
     image: '/images/collections/mens.jpg',
-    link: '/pages/men',
+    link: '#',
   },
 ];
 
@@ -55,7 +55,7 @@ export default function FeaturedCollections() {
           {collections.map((collection, index) => (
             <Link
               key={index}
-              href={collection.link}
+              href={collection.link as any}
               className={`group relative overflow-hidden aspect-[3/4] bg-gray-100 transition-all duration-600 ${
                 sectionVisible ? 'animate-fade-in-up' : 'opacity-0 translate-y-5'
               }`}
