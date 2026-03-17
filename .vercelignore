@@ -1,0 +1,19 @@
+# Exclude everything except the web app
+/*
+!/apps/web/**/*
+!/packages/**/*
+!/package.json
+!/package-lock.json
+!/tsconfig.json
+!/turbo.json
+!/vercel.json
+
+# Exclude node_modules and build artifacts
+**/node_modules
+**/.next
+**/.turbo
+**/dist
+**/*.log
+
+# Exclude other apps
+!/apps/web/**

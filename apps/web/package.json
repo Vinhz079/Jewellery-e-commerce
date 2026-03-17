@@ -6,12 +6,13 @@
     "dev": "next dev --port 3001",
     "build": "npm run db:generate && next build",
     "start": "next start",
-    "db:generate": "prisma generate --schema=../../packages/db/prisma/schema"
+    "db:generate": "prisma generate --schema=./packages/db/prisma/schema",
+    "prepare-deps": "mkdir -p packages && cp -r ../../packages/* ./packages/"
   },
   "dependencies": {
-    "@Jewellery-e-commerce/api": "*",
-    "@Jewellery-e-commerce/auth": "*",
-    "@Jewellery-e-commerce/env": "*",
+    "@Jewellery-e-commerce/api": "file:./packages/api",
+    "@Jewellery-e-commerce/auth": "file:./packages/auth",
+    "@Jewellery-e-commerce/env": "file:./packages/env",
     "@base-ui/react": "^1.0.0",
     "@prisma/client": "^7.1.0",
     "@tanstack/react-form": "^1.27.3",
@@ -36,7 +37,7 @@
     "zod": "^4.1.13"
   },
   "devDependencies": {
-    "@Jewellery-e-commerce/config": "*",
+    "@Jewellery-e-commerce/config": "file:./packages/config",
     "@tailwindcss/postcss": "^4.1.10",
     "@tanstack/react-query-devtools": "^5.91.1",
     "@types/node": "^20",
